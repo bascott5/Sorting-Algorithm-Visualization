@@ -6,7 +6,7 @@ interface props {
   setArr?: Dispatch<SetStateAction<number[]>>
 }
 
-const SortingAlgorithm: React.FC<props> = ({arr, setArr}): JSX.Element => {
+const SortingAlgorithm: React.FC = (): JSX.Element => {
   //Selection sort
   useEffect(() => {
     for (let i = 0; i < arr.length; i++) {
